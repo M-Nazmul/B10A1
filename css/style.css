@@ -87,3 +87,62 @@ header{
     background-color: transparent;
     color:#0D1321;
 }
+
+.main-container{
+    max-width: 1440px;
+    margin: 0 auto;
+    padding: 0 148px;
+     
+}
+.main-container > .web-dev-container{
+    margin: 74px 0;
+    background-color: #FAFAFB;
+    padding: 80px 97px;
+    border-radius: 16px;
+}
+.web-dev-container > h2{
+    color:#0D1321;
+    font-size: 32px;
+    font-weight: 800;
+    text-align: center;
+}
+.web-dev-container >p{
+    color: #555963;
+    margin: 24px 0 48px 0;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 26px;
+    text-align: center;
+}
+.web-dev-container .web-dev-box{
+    color: #545863;
+    background-color: #FCFCFD;
+    padding: 48px;
+    border-radius: 16px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 100px;
+}
+.web-dev-container .web-dev-box:nth-child(even){
+    margin: 24px 0;
+    flex-direction: row-reverse;
+}
+.web-dev-container .web-dev-box  h2 {
+    font-size: 24px;
+    font-weight: 700;
+    line-height: 36px;
+}
+.web-dev-container .web-dev-box  p{
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 26px;
+    margin: 16px 0 32px 0;
+}
+.web-dev-container .web-dev-box  button{
+    font-size: 20px;
+    font-weight: 600;
+    padding: 12px 20px;
+    color: #545863;
+    border: 1px solid #444746;
+}
