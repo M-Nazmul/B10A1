@@ -1,4 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Azeret+Mono:ital,wght@0,100..900;1,100..900&display=swap');
+html {
+    scroll-behavior: smooth;
+  }
 *{
     margin: 0;
     padding: 0;
@@ -71,6 +74,12 @@ header{
 
 }
 .header-container .contact-btn{
+    background-color: transparent;
+    color:#0D1321;
+    padding: 20px 0;
+    border-radius: 8px;
+}
+.header-container .contact-btn #btn-link{
     padding: 21px 24px;
     background-color: #0D1321;
     color: #ffffff;
@@ -80,12 +89,15 @@ header{
     font-weight: 600;
     transition: ease 400ms;
     cursor: pointer;
+    border: none;
+    text-decoration: none;
 
 }
 
-.header-container .contact-btn:hover{
+.header-container .contact-btn #btn-link:hover{
     background-color: transparent;
     color:#0D1321;
+    padding: 21px 24px;
 }
 
 .main-container{
@@ -253,4 +265,20 @@ header{
     border-radius: 8px;
     padding: 17px 20px 17px 20px;
     border: none;
+}
+footer{
+    max-width: 1440px;
+    padding: 32px 150px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #F7F8F8;
+}
+footer .footer-icon{
+ display: flex;
+ gap: 24px;
+}
+footer .footer-icon li{
+    
 }
