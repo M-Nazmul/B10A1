@@ -197,7 +197,11 @@ header{
     background-color: #f850262d;
     padding: 40px;
     border-radius: 16px;
-
+    cursor: pointer;
+    transition: ease 300ms;
+}
+.current-target .target-card:hover{
+    transform: scale(1.05);
 }
 .current-target .target-card h2{
     font-size: 24px;
@@ -265,6 +269,7 @@ header{
     border-radius: 8px;
     padding: 17px 20px 17px 20px;
     border: none;
+    cursor: pointer;
 }
 footer{
     max-width: 1440px;
@@ -278,7 +283,4 @@ footer{
 footer .footer-icon{
  display: flex;
  gap: 24px;
-}
-footer .footer-icon li{
-    
 }
