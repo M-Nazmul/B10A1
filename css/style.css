@@ -155,23 +155,64 @@ header{
     text-align: center;
     margin-bottom: 149px;
 }
-.inspiration-section > h2{
+.inspiration-section > h2, .current-target > h2{
     color:#0D1321;
     font-size: 32px;
     font-weight: 800;
     line-height: 37px;
+    text-align: center;
 }
-.inspiration-section > p{
+.inspiration-section > p, .current-target > p{
     max-width: 852px;
     color: #555963;
     font-size: 16px;
     font-weight: 400;
     line-height: 26px;
     margin: 24px auto 48px;
+    text-align: center;
 }
 .inspiration-section .video-container{
     max-width: 1140px;
     padding: 32px;
     border: 1px solid rgba(13, 19, 33, 0.2);
     border-radius: 16px;
+}
+.current-target{
+    margin-bottom: 100px;
+}
+.current-target .target-card{
+    max-width: 364px;
+    background-color: #f850262d;
+    padding: 40px;
+    border-radius: 16px;
+
+}
+.current-target .target-card h2{
+    font-size: 24px;
+    font-weight: 800;
+    margin-top: 24px;
+}
+.current-target .target-card p{
+    font-size: 16px;
+    font-weight: 400;
+    color: #555963;
+    margin: 8px 0 24px 0;
+}
+.current-target .target-card a{
+    text-decoration: underline;
+    color: #0D1321;
+    
+}
+.current-target .target-card-container{
+    display: flex;
+    gap: 24px;
+}
+.target-card-container .target-card:nth-child(1){
+    background-color: #FF4C1E0D;
+}
+.target-card-container .target-card:nth-child(2){
+    background-color: #004CE80D;
+}
+.target-card-container .target-card:nth-child(3){
+    background-color: #FFDF000D;
 }
